@@ -6,5 +6,9 @@ export const AuthContext = createContext<{
     setAuthStatus: (status: boolean) => void
 }>
 ({
-
+    authStatus: false,
+    setAuthStatus: () => {},
 })
+
+const AuthProvider = AuthContext.Provider
+export default AuthProvider
