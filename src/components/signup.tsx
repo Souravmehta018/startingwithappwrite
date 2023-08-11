@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation"
 import React, {FormEvent, useState} from "react"
 
 
-const signup = () => {
+const Signup = () => {
     const [formData, setFormData] = useState({
         email:"",
         password:"",
@@ -126,4 +126,4 @@ const signup = () => {
   )
 }
 
-export default signup
+export default Signup
